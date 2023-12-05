@@ -1,0 +1,9 @@
+project:
+  type: website
+
+author: Lino Galiana
+
+validate-yaml: false
+jupyter: python3
+
+wrap: preserve

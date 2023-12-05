@@ -1,0 +1,263 @@
+---
+title: Séminaire d'intégration des administrateurs
+subtitle: |
+  **[Session innovation]{.orange}**
+author:
+    - name: "**[[Lino Galiana](https://www.linogaliana.fr/)]{.blue2}**"
+      email: lino.galiana@insee.fr
+      affiliations:
+        - name: "[__Insee__]{.orange}"
+
+#date: 06-09-2023
+slide-number: true
+footer: |
+  **Séminaire d'intégration des administrateurs**
+# uncomment for French presentations:
+lang: fr-FR
+# for blind readers:
+slide-tone: false
+# for @olevitt:
+#chalkboard: # press the B key to toggle chalkboard
+#  theme: whiteboard
+# uncomment to use the multiplex mode:
+#multiplex: true
+format:
+  # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
+  onyxia-revealjs
+  #onyxia-dark-revealjs:
+    #output-file: slides.html
+from: markdown+emoji
+css: custom.css
+---
+
+
+
+# Parcours avant l'Insee
+
+## Mon parcours
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](petit.png)
+:::
+
+::: {.column width="40%"}
+
+<br>
+```{python}
+import folium
+
+# Coordonnées géographiques
+latitude = 43 + 14/60 + 53.6/3600
+longitude = 1 + 49/60 + 43.3/3600
+
+# Création de la carte centrée sur les coordonnées
+m = folium.Map([latitude, longitude], zoom_start=12)
+folium.Marker(
+    location=[latitude, longitude], popup="J'ai grandi là"
+    ).add_to(m)
+
+m
+```
+
+_Ma vie dans le sud-ouest avant la statistique_
+
+:::
+
+
+::::
+
+## Parcours d'étude
+
+- Economie à l'ENS Lyon après B/L
+    + Master APE (PSE)
+
+. . .
+
+- Maths appliquées (Lyon 1, Jussieu) puis stats (ENSAE) ;
+
+. . .
+
+- Stages à l'Insee (D2E, SSP Lab) et à EDF ;
+
+. . .
+
+- Découverte progressive de la _data science_:
+    + Une formation continue
+
+
+## Découverte du monde professionnel {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Comment j'étais préparé pour les problèmes opérationnels par mes études](angrycalvin0_bis.png)
+:::
+
+::: {.column width="50%"}
+![Ma réaction face au mur](angrycalvin2.png)
+:::
+
+::::
+
+
+## Découverte du monde professionnel
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- La _data science_ n'est pas qu'un problème académique ;
+
+- Beaucoup d'_open data_ pour apprendre ;
+
+- Combien d'heures auraient été économisées si j'avais eu un cours de `Git` {{< fa brands git-alt >}}...
+
+:::
+
+::: {.column width="50%"}
+
+![](lesson.png)
+
+:::
+
+::::
+
+
+# Premier poste au D2E
+
+## Un travail académique {.smaller}
+
+- Ségrégation avec données de téléphonie mobile ([DT D2E](https://www.insee.fr/fr/statistiques/fichier/version-html/4925200/G2020-12.pdf), [IA](https://www.insee.fr/fr/statistiques/4930403)):
+
+![](https://ses.ens-lyon.fr/images/actualites-rapports-etudes-et-4-pages/2020-11-09-insee-ia59-fig4.jpg)
+
+## Une production de statistique publique {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Production des statistiques de déplacement de population
+au moment du confinement ([IA](https://www.insee.fr/fr/statistiques/4635407))
+    + Production en temps contraint ;
+    + Gros écho médiatique
+    + Enjeux méthodologiques
+
+::: {.callout-note}
+Pas classique pour un poste au D2E de faire une production statistique mais très formateur. 
+:::
+
+:::
+
+::: {.column width="50%"}
+
+![](telephonie.png)
+
+:::
+
+::::
+
+
+
+## Une étude en collaboration avec un SSM {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<br>
+
+- Etude liant données Fideli (données socio-fiscales) & SIVIC (hospitalisation) ([ici](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/caracteristiques-socio-economiques-des))
+    + En lien avec la DREES
+
+
+- Pour alimenter notre compréhension des inégalités liées à la crise sanitaire.
+    + Hiérarchiser les facteurs corrélés aux cas sévères de Covid.
+
+
+:::
+
+::: {.column width="50%"}
+
+![](pyramide.png)
+
+:::
+
+::::
+
+## Participer à l'innovation (déjà)
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+- Coordonne la documentation collaborative [`utilitR`](https://www.book.utilitr.org/) avec Olivier Meslin.
+
+- Une documentation faite __par__ des utilisateurs, __pour__ des utilisateurs ;
+
+- Accompagner utilisateurs {{< fa brands r-project >}} par des fiches pratiques ;
+
+- Une approche <del>disruptive</del> horizontale.
+
+:::
+
+::: {.column width="30%"}
+
+![](https://www.book.utilitr.org/resources/logo-utilitr.png){fig-align="center"}
+
+:::
+
+::::
+
+
+
+# Missions actuelles
+
+## Résumé
+
+![](cooking.png){fig-align="center"}
+
+## Enseignements de _data science_ {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<br>
+
+- [`Python` {{< fa brands python >}} pour la _data science_](https://pythonds.linogaliana.fr/) (ENSAE 2A) ;
+- [Mise en production de projets _data science_](https://ensae-reproductibilite.github.io/website/) (ENSAE 3A) ;
+- [Introduction à {{< fa brands r-project >}}](https://rgeo.linogaliana.fr/) (ENS Ulm) ;
+- [Bonnes pratiques en {{< fa brands r-project >}} et `Git` {{< fa brands git-alt >}}](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/) (Insee) ;
+- [Données émergentes](https://ensai-donnees-emergentes.netlify.app) (ENSAI) ;
+
+:::
+
+::: {.column width="40%"}
+
+![](https://minio.lab.sspcloud.fr/lgaliana/generative-art/pythonds/kiddos.png){fig-align="center"}
+
+:::
+
+::::
+
+__Et surtout consultez le portail complet de formation du [datalab de l'Insee](https://www.sspcloud.fr/formation), plein de formations faites par l'équipe 🤩__
+
+
+## Projets actuels
+
+- Participation au projet RESIL sur la partie moteur d'appariement flou ;
+
+- Codification automatique données de caisse pour l'IPC ;
+
+- _Dataviz_ indices des loyers construits avec données `SeLoger.com`
+
+Et des projets d'innovation plus ponctuels (en mode 2 jour de travail):
+
+- Exemple: assister la conj pour [moderniser une appli de _dataviz_](https://radjerad.pages.lab.sspcloud.fr/inflation_internationale/)
+
+## SSPHub
+
+to do

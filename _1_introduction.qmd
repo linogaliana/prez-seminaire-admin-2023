@@ -1,0 +1,99 @@
+# Pourquoi la mise en production
+
+## Pourquoi ? {auto-animate=true}
+
+![](https://ssplab.pages.lab.sspcloud.fr/presentations/20231116-ml-prod-stat-dr44/_mlops/img/tech_republic.png){fig-align="center"}
+
+## Pourquoi ? {auto-animate=true}
+
+![](https://ssplab.pages.lab.sspcloud.fr/presentations/20231116-ml-prod-stat-dr44/_mlops/img/tech_republic.png){fig-align="center" style="margin-bottom: 50px;"}
+
+- Les _data scientists_ ne connaissent pas le développement applicatif (mais en cours d'évolution) ;
+- Les informaticiens classiques (devs & ops) ne connaissent pas le machine learning.
+
+
+## Contexte
+
+- Difficulté de passer des expérimentations à la mise en [**production**]{.orange} de modèle de *machine learning*
+
+. . .
+
+- Tirer parti des [**meilleures pratiques**]{.orange} en génie logiciel:
+  - Améliorer la [**reproductibilité**]{.blue2} des analyses
+  - [**Déployer**]{.blue2} des applications de manière [**robuste**]{.blue2}
+  - [**Surveiller**]{.blue2} les applications en cours d'exécution
+
+## Le _data scientist_ moderne 
+
+<br>
+
+L'activité du *data scientist* tend à se rapprocher de celle du développeur :
+
+- projets [**intenses en code**]{.orange}
+
+- [**projets collaboratifs**]{.orange} et de grande envergure
+
+- [**complexification**]{.orange} des données et des [**infrastructures**]{.orange}
+
+- [**déploiement**]{.orange} d'applications pour valoriser les analyses
+
+
+## L'approche `DevOps`
+
+- [**Unifier**]{.orange} le développement (*dev*) et l'administration système (*ops*)
+  - [**Réduire**]{.blue2} le temps de développement
+  - Maintenir la [**qualité**]{.blue2} logicielle
+
+. . .
+
+![](https://inseefrlab.github.io/formation-mlops/slides/img/devops.png){fig-align="center" height=300}
+
+## L'approche `MLOps`
+
+- Intégrer les [**spécificités**]{.orange} des projets de *machine learning*
+  - [**Expérimentation**]{.blue2}
+  - [**Amélioration continue**]{.blue2}
+
+. . .
+
+![](https://inseefrlab.github.io/formation-mlops/slides/img/mlops.png){fig-align="center" height=400}
+
+## DevOps, DataOps, MLOps ?
+
+- Le [**DevOps**]{.orange} n'intègre pas les spécificités liées à la _data science_ ;
+
+- [**DataOps**]{.orange} : déploiement et maintenance de [**_pipelines_ de données**]{.blue2} ;
+
+- [**MLOps**]{.orange} : déploiement et maintenance de [**modèles de Machine Learning**]{.blue2} ;
+
+
+::: {.callout-note}
+Les [**bonnes pratiques**]{.orange} favorisent la collaboration et facilitent les déploiements.
+:::
+
+
+## La notion de mise en production {.smaller}
+
+
+::: {.callout-note}
+## Définition
+
+- [**Mettre en production**]{.orange} : faire [**vivre**]{.blue2} une application dans l'espace de ses [**utilisateurs**]{.blue2}
+    - Notion simple mais mise en oeuvre compliquée !
+
+:::
+
+
+- Dépasser le stade de l'expérimentation
+    - [**Bonnes pratiques**]{.blue2} de développement 
+    - Techniques informatiques d'[**industrialisation**]{.blue2}
+
+. . .
+
+- Enjeu : pouvoir jouer le [**rôle d'interface**]{.orange} entre métier et équipes techniques
+    - Evolution du métier de _data scientist_ ;
+    - Spécificités du ML par rapport à un projet "classique".
+
+
+
+
