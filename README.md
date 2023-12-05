@@ -1,3 +1,3 @@
-# Slides journée Dauphine
+# Slides séminaire d'intégration des administrateurs
 
 TO BE COMPLETED
