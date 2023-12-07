@@ -1,0 +1,9 @@
+.blue2, .blue2 code, .blue2 a { color: #4758AB!important; }
+.blue-underlined {
+    color: #4758AB;
+    text-decoration: underline;
+  }
+.red-underlined {
+    color: red;
+    text-decoration: underline;
+  }
