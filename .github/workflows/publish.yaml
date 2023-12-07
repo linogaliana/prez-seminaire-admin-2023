@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: python -m pip install jupyter
+        run: python -m pip install jupyter folium
       - name: Set up quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Publish to GitHub Pages (and render)
