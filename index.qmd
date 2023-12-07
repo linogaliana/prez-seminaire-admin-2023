@@ -219,6 +219,39 @@ Pas classique pour un poste au D2E de faire une production statistique mais trè
 
 ![](cooking.png){fig-align="center"}
 
+## Ma journée type {.smaller}
+
+__Elle n'existe pas__ 😺
+
+* Des missions de long terme (proche d'un travail de recherche) ;
+
+. . .
+
+* Des missions plus ponctuelles (quelques jours de travail) ;
+
+. . .
+
+
+* De l'écriture de contenu spécialisé (_post_ de blog, cours...) ;
+
+. . .
+
+* Du code, beaucoup de code ({{< fa brands python >}}, {{< fa brands r-project >}} et {{< fa brands javascript >}}) ;
+
+. . .
+
+* Des échanges d'expertise avec les collègues (mission réseau des _data scientists_, échange avec les équipes métiers).
+
+::: {.callout-note}
+
+Postes dans l'innovation statistique sont très ouverts en termes de thématiques car le besoin 
+d'innovation est partout.
+
+- Postes classiques sont plus ciblés sur une thématique (mais aussi des marges de liberté)
+
+:::
+
+
 ## Enseignements de _data science_ {.smaller}
 
 :::: {.columns}
@@ -246,18 +279,87 @@ Pas classique pour un poste au D2E de faire une production statistique mais trè
 __Et surtout consultez le portail complet de formation du [datalab de l'Insee](https://www.sspcloud.fr/formation), plein de formations faites par l'équipe 🤩__
 
 
-## Projets actuels
+## Projets actuels: long terme {.smaller}
 
-- Participation au projet RESIL sur la partie moteur d'appariement flou ;
-
-- Codification automatique données de caisse pour l'IPC ;
+- Participation à un projet d'association de bases de données pour pallier l'absence de NIR ;
 
 - _Dataviz_ indices des loyers construits avec données `SeLoger.com`
 
-Et des projets d'innovation plus ponctuels (en mode 2 jour de travail):
+- Codification automatique données de caisse pour l'IPC ;
 
-- Exemple: assister la conj pour [moderniser une appli de _dataviz_](https://radjerad.pages.lab.sspcloud.fr/inflation_internationale/)
+```{ojs}
+viewof product = Inputs.text( 
+  {label: '', value: 'Coca cola', width: 800}
+)
+```
 
-## SSPHub
+<br>
 
-to do
+```{ojs}
+Inputs.table(toto)
+```
+
+
+
+```{ojs}
+toto = d3.json(urlPredicat).then(
+  res => {
+    const values = res['coicop'][`\'${product_debounce}\'`] ;
+    return values
+  }
+  )
+```
+
+```{ojs}
+product_debounce = debounce(viewof product, 2000)
+urlPredicat = `https://api.lab.sspcloud.fr/predicat/label?k=3&q=%27${product_debounce}%27&v=1`
+```
+
+```{ojs}
+import {debounce} from "@mbostock/debouncing-input"
+```
+
+
+
+## Projets actuels
+### Projets plus ponctuels
+
+Des projets en mode 2 jours de travail:
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Moderniser une appli de _dataviz_ pour le suivi macroéconomique conjoncturel
+- [Guide d'utilisation des données du recensement de la population](https://ssphub.netlify.app/post/parquetrp/)
+- [Application pour vérifier la qualité des algorithmes d'association entre sources](https://inseefrlab.github.io/serverless-annotation-tool/)
+
+:::
+
+::: {.column width="40%"}
+
+![](https://ssphub.netlify.app/post/parquetRP/ducks.png)
+
+:::
+
+::::
+
+# Et le `SSP Hub`
+
+## Animation d'un réseau de _data scientists_ (`SSPHub`)
+
+Animation d'un réseau de _data scientists_ pour l'administration (+500 inscrits):
+
+- Production de contenu sur <https://ssphub.netlify.app/> (posts de blog, _newsletters_...) ;
+
+. . .
+
+- Organisation d'événements (séminaires, journée de la _data science_, _masterclass_...) ;
+
+. . .
+
+- Projets collaboratifs ;
+
+. . .
+
+- Expertise et assistance sur projets innovants.
