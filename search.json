@@ -4,7 +4,7 @@
     "href": "index.html#mon-parcours",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Mon parcours",
-    "text": "Mon parcours\n\n\n\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n\n\nMa vie dans le sud-ouest avant la statistique"
+    "text": "Mon parcours\n\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:600px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\n```{ojs}\n//| echo: false\nimport L from \"@observablehq/hello-leaflet\"\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 79, column 8)Unexpected token\n\n\n\n\n\n\n\n\nMa vie dans le sud-ouest avant la statistique"
   },
   {
     "objectID": "index.html#parcours-détude",
@@ -40,13 +40,6 @@
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Une production de statistique publique",
     "text": "Une production de statistique publique\n\n\n\nProduction des statistiques de déplacement de population\nau moment du confinement (IA)\n\nProduction en temps contraint ;\nGros écho médiatique\nEnjeux méthodologiques\n\n\n\n\n\n\n\n\nNote\n\n\nPas classique pour un poste au D2E de faire une production statistique mais très formateur."
-  },
-  {
-    "objectID": "index.html#une-étude-en-collaboration-avec-un-ssm",
-    "href": "index.html#une-étude-en-collaboration-avec-un-ssm",
-    "title": "Séminaire d’intégration des administrateurs",
-    "section": "Une étude en collaboration avec un SSM",
-    "text": "Une étude en collaboration avec un SSM\n\n\n\n\nEtude liant données Fideli (données socio-fiscales) & SIVIC (hospitalisation) (ici)\n\nEn lien avec la DREES\n\nPour alimenter notre compréhension des inégalités liées à la crise sanitaire.\n\nHiérarchiser les facteurs corrélés aux cas sévères de Covid."
   },
   {
     "objectID": "index.html#participer-à-linnovation-déjà",
@@ -91,10 +84,31 @@
     "text": "Projets actuels\nProjets plus ponctuels\nDes projets en mode 2 jours de travail:\n\n\n\nModerniser une appli de dataviz pour le suivi macroéconomique conjoncturel\nGuide d’utilisation des données du recensement de la population\nApplication pour vérifier la qualité des algorithmes d’association entre sources"
   },
   {
+    "objectID": "index.html#un-réseau-pour-les-data-scientists",
+    "href": "index.html#un-réseau-pour-les-data-scientists",
+    "title": "Séminaire d’intégration des administrateurs",
+    "section": "Un réseau pour les data scientists",
+    "text": "Un réseau pour les data scientists"
+  },
+  {
+    "objectID": "index.html#principaux-constats",
+    "href": "index.html#principaux-constats",
+    "title": "Séminaire d’intégration des administrateurs",
+    "section": "Principaux constats",
+    "text": "Principaux constats\n\nBesoin de formation en continu dans un champ mouvant\n\n\n\nBesoin d’échanges entre data-scientists\n\n\n\n\nBesoin d’une vitrine pour les projets novateurs\n\n\n\n\nDes besoins RH:\n\n400 experts nécessaires en plus (horizon 2023, toutes administrations)\nValoriser profils data-scientists dans les parcours RH"
+  },
+  {
+    "objectID": "index.html#solutions-envisagées",
+    "href": "index.html#solutions-envisagées",
+    "title": "Séminaire d’intégration des administrateurs",
+    "section": "Solutions envisagées",
+    "text": "Solutions envisagées\n\nLe réseau des data-scientists\n\nExistence officielle depuis septembre 2022\n\n\n\n\nLe programme 10%\n\nFonctionnement par projets : OCRisation, publications reproductibles, siretisation, cartiflette\nAssocié à des formations communautaires"
+  },
+  {
     "objectID": "index.html#animation-dun-réseau-de-data-scientists-ssphub",
     "href": "index.html#animation-dun-réseau-de-data-scientists-ssphub",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Animation d’un réseau de data scientists (SSPHub)",
-    "text": "Animation d’un réseau de data scientists (SSPHub)\nAnimation d’un réseau de data scientists pour l’administration (+500 inscrits):\n\nProduction de contenu sur https://ssphub.netlify.app/ (posts de blog, newsletters…) ;\n\n\n\nOrganisation d’événements (séminaires, journée de la data science, masterclass…) ;\n\n\n\n\nProjets collaboratifs ;\n\n\n\n\nExpertise et assistance sur projets innovants.\n\n\n\nSéminaire d’intégration des administrateurs"
+    "text": "Animation d’un réseau de data scientists (SSPHub)\nAnimation d’un réseau informel de data scientists pour l’administration (+500 inscrits):\n\nProduction de contenu sur https://ssphub.netlify.app/ (posts de blog, newsletters…) ;\n\n\n\nOrganisation d’événements (séminaires, journée de la data science, masterclass…) ;\n\n\n\n\nProjets collaboratifs ;\n\n\n\n\nExpertise et assistance sur projets innovants.\n\n\n\nSéminaire d’intégration des administrateurs"
   }
 ]
