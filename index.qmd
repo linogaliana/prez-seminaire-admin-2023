@@ -45,21 +45,40 @@ css: custom.css
 ::: {.column width="40%"}
 
 <br>
-```{python}
-import folium
 
-# Coordonnées géographiques
+```{ojs}
+html`<div>${map}</div>`
+```
+
+```{ojs}
+//| echo: false
+// Coordonnées géographiques
 latitude = 43 + 14/60 + 53.6/3600
 longitude = 1 + 49/60 + 43.3/3600
-
-# Création de la carte centrée sur les coordonnées
-m = folium.Map([latitude, longitude], zoom_start=12)
-folium.Marker(
-    location=[latitude, longitude], popup="J'ai grandi là"
-    ).add_to(m)
-
-m
 ```
+
+
+```{ojs}
+//| echo: false
+//| output: false
+map = {
+  const container = html`<div style="height:600px;">`;
+  yield container;
+  const map = L.map(container).setView([latitude, longitude], 13);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; <a href=https://www.openstreetmap.org/copyright>OpenStreetMap</a> contributors"
+  }).addTo(map);
+  var marker = L.marker([latitude, longitude]).addTo(map);
+  marker.bindPopup("<b>J'ai grandi ici</b>").openPopup();
+  return map
+}
+```
+
+```{ojs}
+//| echo: false
+import L from "@observablehq/hello-leaflet"
+```
+
 
 _Ma vie dans le sud-ouest avant la statistique_
 
@@ -160,32 +179,6 @@ Pas classique pour un poste au D2E de faire une production statistique mais trè
 ::::
 
 
-
-## Une étude en collaboration avec un SSM {.smaller}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-<br>
-
-- Etude liant données Fideli (données socio-fiscales) & SIVIC (hospitalisation) ([ici](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/caracteristiques-socio-economiques-des))
-    + En lien avec la DREES
-
-
-- Pour alimenter notre compréhension des inégalités liées à la crise sanitaire.
-    + Hiérarchiser les facteurs corrélés aux cas sévères de Covid.
-
-
-:::
-
-::: {.column width="50%"}
-
-![](pyramide.png)
-
-:::
-
-::::
 
 ## Participer à l'innovation (déjà)
 
@@ -346,9 +339,47 @@ Des projets en mode 2 jours de travail:
 
 # Et le `SSP Hub`
 
+## Un réseau pour les _data scientists_
+
+![](occulte.png)
+
+## Principaux constats
+
+- Besoin de __[formation en continu]{.blue}__ dans un _champ_ mouvant
+
+. . .
+
+- Besoin d'[**échanges**]{.blue} entre _data-scientists_
+
+. . .
+
+- Besoin d'une [**vitrine**]{.blue} pour les projets novateurs
+
+. . .
+
+- Des [**besoins RH**]{.blue}:
+    + __400__ experts nécessaires en plus (horizon 2023, toutes administrations)
+    + Valoriser profils _data-scientists_ dans les parcours RH
+
+
+## Solutions envisagées {.smaller}
+
+
+- Le __[réseau des _data-scientists_](https://ssphub.netlify.app/)__
+    + Existence officielle depuis septembre 2022
+
+. . .
+
+- Le __[programme 10%](https://10pourcent.etalab.studio/programme/)__
+    + Fonctionnement par projets : OCRisation, publications reproductibles, siretisation, `cartiflette`
+    + Associé à des formations communautaires
+
+![](https://10pourcent.etalab.studio/img/calendrier.png){width="60%" fig-align="center"}
+
+
 ## Animation d'un réseau de _data scientists_ (`SSPHub`)
 
-Animation d'un réseau de _data scientists_ pour l'administration (+500 inscrits):
+Animation d'un réseau informel de _data scientists_ pour l'administration (+500 inscrits):
 
 - Production de contenu sur <https://ssphub.netlify.app/> (posts de blog, _newsletters_...) ;
 
