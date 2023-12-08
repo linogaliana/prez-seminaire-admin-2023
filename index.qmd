@@ -39,7 +39,7 @@ css: custom.css
 :::: {.columns}
 
 ::: {.column width="60%"}
-![](petit.png)
+![_Ma vie dans le sud-ouest avant la statistique_](petit.png)
 :::
 
 ::: {.column width="40%"}
@@ -47,6 +47,7 @@ css: custom.css
 <br>
 
 ```{ojs}
+//| echo: false
 html`<div>${map}</div>`
 ```
 
@@ -62,7 +63,7 @@ longitude = 1 + 49/60 + 43.3/3600
 //| echo: false
 //| output: false
 map = {
-  const container = html`<div style="height:600px;">`;
+  const container = html`<div style="height:500px;">`;
   yield container;
   const map = L.map(container).setView([latitude, longitude], 13);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -78,9 +79,6 @@ map = {
 //| echo: false
 import L from "@observablehq/hello-leaflet"
 ```
-
-
-_Ma vie dans le sud-ouest avant la statistique_
 
 :::
 
@@ -145,6 +143,11 @@ _Ma vie dans le sud-ouest avant la statistique_
 
 
 # Premier poste au D2E
+
+## Résumé
+
+![](https://rgeo.linogaliana.fr/cards/quarto/scroll.png)
+
 
 ## Un travail académique {.smaller}
 
@@ -211,6 +214,7 @@ Pas classique pour un poste au D2E de faire une production statistique mais trè
 ## Résumé
 
 ![](cooking.png){fig-align="center"}
+
 
 ## Ma journée type {.smaller}
 
