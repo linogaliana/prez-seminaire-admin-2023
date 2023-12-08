@@ -63,7 +63,7 @@ longitude = 1 + 49/60 + 43.3/3600
 //| echo: false
 //| output: false
 map = {
-  const container = html`<div style="height:500px;">`;
+  const container = html`<div style="height:300px;">`;
   yield container;
   const map = L.map(container).setView([latitude, longitude], 13);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -76,8 +76,7 @@ map = {
 ```
 
 ```{ojs}
-//| echo: false
-import L from "@observablehq/hello-leaflet"
+import {L} from "@observablehq/hello-leaflet"
 ```
 
 :::
@@ -345,7 +344,7 @@ Des projets en mode 2 jours de travail:
 
 ## Un réseau pour les _data scientists_
 
-![](occulte.png)
+![Désolé, malgré mes instructions répétées Dall-E n'a pas voulu faire autre chose que créer un _boys club_](occulte.png)
 
 ## Principaux constats
 
@@ -381,7 +380,7 @@ Des projets en mode 2 jours de travail:
 ![](https://10pourcent.etalab.studio/img/calendrier.png){width="60%" fig-align="center"}
 
 
-## Animation d'un réseau de _data scientists_ (`SSPHub`)
+## Le réseau en pratique
 
 Animation d'un réseau informel de _data scientists_ pour l'administration (+500 inscrits):
 
