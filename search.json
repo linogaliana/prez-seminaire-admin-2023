@@ -4,7 +4,7 @@
     "href": "index.html#mon-parcours",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Mon parcours",
-    "text": "Mon parcours\n\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:600px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\n```{ojs}\n//| echo: false\nimport L from \"@observablehq/hello-leaflet\"\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 79, column 8)Unexpected token\n\n\n\n\n\n\n\n\nMa vie dans le sud-ouest avant la statistique"
+    "text": "Mon parcours\n\n\n\n\n\nMa vie dans le sud-ouest avant la statistique\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:500px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\n```{ojs}\n//| echo: false\nimport L from \"@observablehq/hello-leaflet\"\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 80, column 8)Unexpected token"
   },
   {
     "objectID": "index.html#parcours-détude",
@@ -28,6 +28,13 @@
     "text": "Découverte du monde professionnel\n\n\n\nLa data science n’est pas qu’un problème académique ;\nBeaucoup d’open data pour apprendre ;\nCombien d’heures auraient été économisées si j’avais eu un cours de Git …"
   },
   {
+    "objectID": "index.html#résumé",
+    "href": "index.html#résumé",
+    "title": "Séminaire d’intégration des administrateurs",
+    "section": "Résumé",
+    "text": "Résumé"
+  },
+  {
     "objectID": "index.html#un-travail-académique",
     "href": "index.html#un-travail-académique",
     "title": "Séminaire d’intégration des administrateurs",
@@ -49,8 +56,8 @@
     "text": "Participer à l’innovation (déjà)\n\n\n\nCoordonne la documentation collaborative utilitR avec Olivier Meslin.\nUne documentation faite par des utilisateurs, pour des utilisateurs ;\nAccompagner utilisateurs  par des fiches pratiques ;\nUne approche disruptive horizontale."
   },
   {
-    "objectID": "index.html#résumé",
-    "href": "index.html#résumé",
+    "objectID": "index.html#résumé-1",
+    "href": "index.html#résumé-1",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Résumé",
     "text": "Résumé"
