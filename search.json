@@ -4,7 +4,7 @@
     "href": "index.html#mon-parcours",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Mon parcours",
-    "text": "Mon parcours\n\n\n\n\n\nMa vie dans le sud-ouest avant la statistique\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:500px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\n```{ojs}\n//| echo: false\nimport L from \"@observablehq/hello-leaflet\"\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 80, column 8)Unexpected token"
+    "text": "Mon parcours\n\n\n\n\n\nMa vie dans le sud-ouest avant la statistique\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:300px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\nimport {L} from \"@observablehq/hello-leaflet\""
   },
   {
     "objectID": "index.html#parcours-détude",
@@ -95,7 +95,7 @@
     "href": "index.html#un-réseau-pour-les-data-scientists",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Un réseau pour les data scientists",
-    "text": "Un réseau pour les data scientists"
+    "text": "Un réseau pour les data scientists\n\nDésolé, malgré mes instructions répétées Dall-E n’a pas voulu faire autre chose que créer un boys club"
   },
   {
     "objectID": "index.html#principaux-constats",
@@ -112,10 +112,10 @@
     "text": "Solutions envisagées\n\nLe réseau des data-scientists\n\nExistence officielle depuis septembre 2022\n\n\n\n\nLe programme 10%\n\nFonctionnement par projets : OCRisation, publications reproductibles, siretisation, cartiflette\nAssocié à des formations communautaires"
   },
   {
-    "objectID": "index.html#animation-dun-réseau-de-data-scientists-ssphub",
-    "href": "index.html#animation-dun-réseau-de-data-scientists-ssphub",
+    "objectID": "index.html#le-réseau-en-pratique",
+    "href": "index.html#le-réseau-en-pratique",
     "title": "Séminaire d’intégration des administrateurs",
-    "section": "Animation d’un réseau de data scientists (SSPHub)",
-    "text": "Animation d’un réseau de data scientists (SSPHub)\nAnimation d’un réseau informel de data scientists pour l’administration (+500 inscrits):\n\nProduction de contenu sur https://ssphub.netlify.app/ (posts de blog, newsletters…) ;\n\n\n\nOrganisation d’événements (séminaires, journée de la data science, masterclass…) ;\n\n\n\n\nProjets collaboratifs ;\n\n\n\n\nExpertise et assistance sur projets innovants.\n\n\n\nSéminaire d’intégration des administrateurs"
+    "section": "Le réseau en pratique",
+    "text": "Le réseau en pratique\nAnimation d’un réseau informel de data scientists pour l’administration (+500 inscrits):\n\nProduction de contenu sur https://ssphub.netlify.app/ (posts de blog, newsletters…) ;\n\n\n\nOrganisation d’événements (séminaires, journée de la data science, masterclass…) ;\n\n\n\n\nProjets collaboratifs ;\n\n\n\n\nExpertise et assistance sur projets innovants.\n\n\n\nSéminaire d’intégration des administrateurs"
   }
 ]
