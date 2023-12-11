@@ -4,21 +4,21 @@
     "href": "index.html#mon-parcours",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Mon parcours",
-    "text": "Mon parcours\n\n\n\n\n\nMa vie dans le sud-ouest avant la statistique\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:300px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\nimport {L} from \"@observablehq/hello-leaflet\""
+    "text": "Mon parcours\n\n\n\n\n\n\nhtml`&lt;div&gt;${map}&lt;/div&gt;`\n\n\n\n\n\n\n\nlatitude = 43 + 14/60 + 53.6/3600\nlongitude = 1 + 49/60 + 43.3/3600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmap = {\n  const container = html`&lt;div style=\"height:300px;\"&gt;`;\n  yield container;\n  const map = L.map(container).setView([latitude, longitude], 13);\n  L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n    attribution: \"&copy; &lt;a href=https://www.openstreetmap.org/copyright&gt;OpenStreetMap&lt;/a&gt; contributors\"\n  }).addTo(map);\n  var marker = L.marker([latitude, longitude]).addTo(map);\n  marker.bindPopup(\"&lt;b&gt;J'ai grandi ici&lt;/b&gt;\").openPopup();\n  return map\n}\n\n\n\n\n\n\n\nimport {L} from \"@observablehq/hello-leaflet\""
   },
   {
     "objectID": "index.html#parcours-détude",
     "href": "index.html#parcours-détude",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Parcours d’étude",
-    "text": "Parcours d’étude\n\nEconomie à l’ENS Lyon après B/L\n\nMaster APE (PSE)\n\n\n\n\nMaths appliquées (Lyon 1, Jussieu) puis stats (ENSAE) ;\n\n\n\n\nStages à l’Insee (D2E, SSP Lab) et à EDF ;\n\n\n\n\nDécouverte progressive de la data science:\n\nUne formation continue"
+    "text": "Parcours d’étude\n\nEconomie à l’ENS Lyon après B/L\n\nMaster APE (PSE) en 2015-2016\n\n\n\n\nMaths appliquées (Lyon 1, Jussieu) puis stats (ENSAE) ;\n\n\n\n\nStages à l’Insee (D2E, SSP Lab) et à EDF ;\n\n\n\n\nDécouverte progressive de la data science:\n\nUne formation continue"
   },
   {
     "objectID": "index.html#découverte-du-monde-professionnel",
     "href": "index.html#découverte-du-monde-professionnel",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Découverte du monde professionnel",
-    "text": "Découverte du monde professionnel\n\n\n\n\n\nComment j’étais préparé pour les problèmes opérationnels par mes études\n\n\n\n\n\n\nMa réaction face au mur"
+    "text": "Découverte du monde professionnel\n\n\n\n\n\nComment les études préparent aux problèmes opérationnels\n\n\n\n\n\n\nDébut de vie professionnelle"
   },
   {
     "objectID": "index.html#découverte-du-monde-professionnel-1",
