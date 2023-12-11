@@ -348,19 +348,19 @@ Des projets en mode 2 jours de travail:
 
 ## Principaux constats
 
-- Besoin de __[formation en continu]{.blue}__ dans un _champ_ mouvant
+- Besoin de __[formation en continu]{.blue2}__ dans un _champ_ mouvant
 
 . . .
 
-- Besoin d'[**échanges**]{.blue} entre _data-scientists_
+- Besoin d'[**échanges**]{.blue2} entre _data-scientists_
 
 . . .
 
-- Besoin d'une [**vitrine**]{.blue} pour les projets novateurs
+- Besoin d'une [**vitrine**]{.blue2} pour les projets novateurs
 
 . . .
 
-- Des [**besoins RH**]{.blue}:
+- Des [**besoins RH**]{.blue2}:
     + __400__ experts nécessaires en plus (horizon 2023, toutes administrations)
     + Valoriser profils _data-scientists_ dans les parcours RH
 
@@ -377,7 +377,6 @@ Des projets en mode 2 jours de travail:
     + Fonctionnement par projets : OCRisation, publications reproductibles, siretisation, `cartiflette`
     + Associé à des formations communautaires
 
-![](https://10pourcent.etalab.studio/img/calendrier.png){width="60%" fig-align="center"}
 
 
 
@@ -403,40 +402,40 @@ Animation d'un réseau informel de _data scientists_ pour l'administration (+500
 
 ## Public cible
 
-- [__Tous les agents__]{.blue} du Service Statistique Public:
+- [__Tous les agents__]{.blue2} du Service Statistique Public:
     + Indépendamment du niveau d'expertise
     + Chacun peut s'intéresser à une partie restreinte des ressources
 
 . . .
 
-- Proposer du [__contenu pour tous__]{.blue} :
+- Proposer du [__contenu pour tous__]{.blue2} :
     + Différents niveaux ressources coexistent
     + Entrées thématiques
 
 
 ## Objectifs
 
-- Faciliter l’[__échange entre pairs__]{.blue} et l'[__émulation__]{.blue}
+- Faciliter l’[__échange entre pairs__]{.blue2} et l'[__émulation__]{.blue2}
 
 . . .
 
-- [__Relayer des formations__]{.blue} et ressources utiles
+- [__Relayer des formations__]{.blue2} et ressources utiles
 
 . . .
 
-- [__Créer collectivement du contenu__]{.blue}, indépendamment de notre institution d'origine
+- [__Créer collectivement du contenu__]{.blue2}, indépendamment de notre institution d'origine
 
 . . .
 
-- [__Accompagner__]{.blue} de manière ponctuelle des équipes
+- [__Accompagner__]{.blue2} de manière ponctuelle des équipes
 
 . . .
 
-- Offrir une [__vitrine__]{.blue} des initiatives de data science 
+- Offrir une [__vitrine__]{.blue2} des initiatives de data science 
 
 . . .
 
-- [__Valoriser compétences__]{.blue} des profils data scientists
+- [__Valoriser compétences__]{.blue2} des profils data scientists
 
 ## Le site web
 
