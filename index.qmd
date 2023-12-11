@@ -380,6 +380,8 @@ Des projets en mode 2 jours de travail:
 ![](https://10pourcent.etalab.studio/img/calendrier.png){width="60%" fig-align="center"}
 
 
+
+
 ## Le réseau en pratique
 
 Animation d'un réseau informel de _data scientists_ pour l'administration (+500 inscrits):
@@ -397,3 +399,45 @@ Animation d'un réseau informel de _data scientists_ pour l'administration (+500
 . . .
 
 - Expertise et assistance sur projets innovants.
+
+
+## Public cible
+
+- [__Tous les agents__]{.blue} du Service Statistique Public:
+    + Indépendamment du niveau d'expertise
+    + Chacun peut s'intéresser à une partie restreinte des ressources
+
+. . .
+
+- Proposer du [__contenu pour tous__]{.blue} :
+    + Différents niveaux ressources coexistent
+    + Entrées thématiques
+
+
+## Objectifs
+
+- Faciliter l’[__échange entre pairs__]{.blue} et l'[__émulation__]{.blue}
+
+. . .
+
+- [__Relayer des formations__]{.blue} et ressources utiles
+
+. . .
+
+- [__Créer collectivement du contenu__]{.blue}, indépendamment de notre institution d'origine
+
+. . .
+
+- [__Accompagner__]{.blue} de manière ponctuelle des équipes
+
+. . .
+
+- Offrir une [__vitrine__]{.blue} des initiatives de data science 
+
+. . .
+
+- [__Valoriser compétences__]{.blue} des profils data scientists
+
+## Le site web
+
+__Petit tour sur [https://ssphub.netlify.app/](https://ssphub.netlify.app/)__
