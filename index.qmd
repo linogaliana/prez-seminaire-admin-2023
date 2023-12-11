@@ -440,3 +440,9 @@ Animation d'un réseau informel de _data scientists_ pour l'administration (+500
 ## Le site web
 
 __Petit tour sur [https://ssphub.netlify.app/](https://ssphub.netlify.app/)__
+
+## Rejoindre le réseau
+
+- Vous pouvez déjà suivre les actualités du réseau !
+
+- Un mail à <ssphub-contact@insee.fr> 
