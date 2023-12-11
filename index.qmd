@@ -39,7 +39,7 @@ css: custom.css
 :::: {.columns}
 
 ::: {.column width="60%"}
-![_Ma vie dans le sud-ouest avant la statistique_](petit.png)
+![](petit.png)
 :::
 
 ::: {.column width="40%"}
@@ -87,7 +87,7 @@ import {L} from "@observablehq/hello-leaflet"
 ## Parcours d'étude
 
 - Economie à l'ENS Lyon après B/L
-    + Master APE (PSE)
+    + Master APE (PSE) en 2015-2016
 
 . . .
 
@@ -108,11 +108,11 @@ import {L} from "@observablehq/hello-leaflet"
 :::: {.columns}
 
 ::: {.column width="50%"}
-![Comment j'étais préparé pour les problèmes opérationnels par mes études](angrycalvin0_bis.png)
+![Comment les études préparent aux problèmes opérationnels](angrycalvin0_bis.png)
 :::
 
 ::: {.column width="50%"}
-![Ma réaction face au mur](angrycalvin2.png)
+![Début de vie professionnelle](angrycalvin2.png)
 :::
 
 ::::
