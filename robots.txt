@@ -1,1 +1,1 @@
-Sitemap: https://github.com/linogaliana/prez-seminaire-admin-2023/sitemap.xml
+Sitemap: https://linogaliana.github.io/prez-seminaire-admin-2023/sitemap.xml

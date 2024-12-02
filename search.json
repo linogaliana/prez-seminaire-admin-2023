@@ -74,21 +74,21 @@
     "href": "index.html#enseignements-de-data-science",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Enseignements de data science",
-    "text": "Enseignements de data science\n\n\n\n\nPython  pour la data science (ENSAE 2A) ;\nMise en production de projets data science (ENSAE 3A) ;\nIntroduction à  (ENS Ulm) ;\nBonnes pratiques en  et Git  (Insee) ;\nDonnées émergentes (ENSAI) ;\n\n\n\n\n\n\n\n\n\nEt surtout consultez le portail complet de formation du datalab de l’Insee, plein de formations faites par l’équipe 🤩"
+    "text": "Enseignements de data science\n\n\n\n\nPython  pour la data science (ENSAE 2A) ;\nMise en production de projets data science (ENSAE 3A) ;\nBonnes pratiques en  et Git  (Insee) ;\nDonnées émergentes (ENSAI) ;\n\n\n\n\n\n\n\n\nEt surtout consultez le portail complet de formation du datalab de l’Insee, plein de formations faites par l’équipe 🤩"
   },
   {
     "objectID": "index.html#projets-actuels-long-terme",
     "href": "index.html#projets-actuels-long-terme",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Projets actuels: long terme",
-    "text": "Projets actuels: long terme\n\nParticipation à un projet d’association de bases de données pour pallier l’absence de NIR ;\nDataviz indices des loyers construits avec données SeLoger.com\nCodification automatique données de caisse pour l’IPC ;\n\n\nviewof product = Inputs.text( \n  {label: '', value: 'Coca cola', width: 800}\n)\n\n\n\n\n\n\n\n\nInputs.table(toto)\n\n\n\n\n\n\n\ntoto = d3.json(urlPredicat).then(\n  res =&gt; {\n    const values = res['coicop'][`\\'${product_debounce}\\'`] ;\n    return values\n  }\n  )\n\n\n\n\n\n\n\nproduct_debounce = debounce(viewof product, 2000)\nurlPredicat = `https://api.lab.sspcloud.fr/predicat/label?k=3&q=%27${product_debounce}%27&v=1`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimport {debounce} from \"@mbostock/debouncing-input\""
+    "text": "Projets actuels: long terme\n\nParticipation à RESIL: association de bases de données pour pallier l’absence de NIR ;\nAccompagnement BdF pour codification automatique tickets de caisse dans COICOP ;\nUne IA assistante pour s’y retrouver sur le site Insee"
   },
   {
     "objectID": "index.html#projets-actuels",
     "href": "index.html#projets-actuels",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Projets actuels",
-    "text": "Projets actuels\nProjets plus ponctuels\nDes projets en mode 2 jours de travail:\n\n\n\nModerniser une appli de dataviz pour le suivi macroéconomique conjoncturel\nGuide d’utilisation des données du recensement de la population\nApplication pour vérifier la qualité des algorithmes d’association entre sources"
+    "text": "Projets actuels\nProjets plus ponctuels\nDes projets en mode 2 jours de travail:\n\n\n\nGuide d’utilisation des données du recensement de la population\nModerniser une appli de dataviz pour le suivi macroéconomique conjoncturel\nApplication pour vérifier la qualité des algorithmes d’association entre sources"
   },
   {
     "objectID": "index.html#un-réseau-pour-les-data-scientists",
@@ -116,7 +116,7 @@
     "href": "index.html#le-réseau-en-pratique",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Le réseau en pratique",
-    "text": "Le réseau en pratique\nAnimation d’un réseau informel de data scientists pour l’administration (+500 inscrits):\n\nProduction de contenu sur https://ssphub.netlify.app/ (posts de blog, newsletters…) ;\n\n\n\nOrganisation d’événements (séminaires, journée de la data science, masterclass…) ;\n\n\n\n\nProjets collaboratifs ;\n\n\n\n\nExpertise et assistance sur projets innovants."
+    "text": "Le réseau en pratique\nAnimation d’un réseau informel de data scientists pour l’administration (+800 inscrits):\n\nProduction de contenu sur https://ssphub.netlify.app/ (posts de blog, newsletters…) ;\n\n\n\nOrganisation d’événements (séminaires, journée de la data science, masterclass…) ;\n\n\n\n\nProjets collaboratifs ;\n\n\n\n\nExpertise et assistance sur projets innovants."
   },
   {
     "objectID": "index.html#public-cible",
@@ -144,6 +144,6 @@
     "href": "index.html#rejoindre-le-réseau",
     "title": "Séminaire d’intégration des administrateurs",
     "section": "Rejoindre le réseau",
-    "text": "Rejoindre le réseau\n\nVous pouvez déjà suivre les actualités du réseau !\nUn mail à ssphub-contact at insee dot fr\n\n\n\nSéminaire d’intégration des administrateurs"
+    "text": "Rejoindre le réseau\n\nVous pouvez déjà suivre les actualités du réseau !\nUn mail à ssphub-contact at insee dot fr"
   }
 ]
