@@ -86,12 +86,12 @@ import {L} from "@observablehq/hello-leaflet"
 
 ## Parcours d'étude
 
-- Economie à l'ENS Lyon après B/L
-    + Master APE (PSE) en 2015-2016
+- [__Economie__]{.orange} à l'ENS Lyon après B/L
+    + [__Master APE (PSE)__]{.blue2} en 2015-2016
 
 . . .
 
-- Maths appliquées (Lyon 1, Jussieu) puis stats (ENSAE) ;
+- Maths appliquées (Lyon 1, Jussieu) puis [__stats__]{.orange} (ENSAE) ;
 
 . . .
 
@@ -99,7 +99,7 @@ import {L} from "@observablehq/hello-leaflet"
 
 . . .
 
-- Découverte progressive de la _data science_:
+- [__Découverte progressive de la _data science___]{.orange}:
     + Une formation continue
 
 
@@ -200,7 +200,7 @@ Pas classique pour un poste au D2E de faire une production statistique mais trè
 
 ::: {.column width="30%"}
 
-![](https://www.book.utilitr.org/resources/logo-utilitr.png){fig-align="center"}
+![](https://utilitr.org/images/logo-utilitr.png){fig-align="center"}
 
 :::
 
@@ -258,7 +258,6 @@ d'innovation est partout.
 
 - [`Python` {{< fa brands python >}} pour la _data science_](https://pythonds.linogaliana.fr/) (ENSAE 2A) ;
 - [Mise en production de projets _data science_](https://ensae-reproductibilite.github.io/website/) (ENSAE 3A) ;
-- [Introduction à {{< fa brands r-project >}}](https://rgeo.linogaliana.fr/) (ENS Ulm) ;
 - [Bonnes pratiques en {{< fa brands r-project >}} et `Git` {{< fa brands git-alt >}}](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/) (Insee) ;
 - [Données émergentes](https://ensai-donnees-emergentes.netlify.app) (ENSAI) ;
 
@@ -277,44 +276,13 @@ __Et surtout consultez le portail complet de formation du [datalab de l'Insee](h
 
 ## Projets actuels: long terme {.smaller}
 
-- Participation à un projet d'association de bases de données pour pallier l'absence de NIR ;
+- [__Participation à `RESIL`__]{.orange}: association de bases de données pour pallier l'absence de NIR ;
 
-- _Dataviz_ indices des loyers construits avec données `SeLoger.com`
+- [__Accompagnement BdF__]{.orange} pour codification automatique tickets de caisse dans COICOP ;
 
-- Codification automatique données de caisse pour l'IPC ;
+- Une [__IA assistante__]{.orange} pour s'y retrouver sur le site Insee
 
-```{ojs}
-viewof product = Inputs.text( 
-  {label: '', value: 'Coca cola', width: 800}
-)
-```
-
-<br>
-
-```{ojs}
-Inputs.table(toto)
-```
-
-
-
-```{ojs}
-toto = d3.json(urlPredicat).then(
-  res => {
-    const values = res['coicop'][`\'${product_debounce}\'`] ;
-    return values
-  }
-  )
-```
-
-```{ojs}
-product_debounce = debounce(viewof product, 2000)
-urlPredicat = `https://api.lab.sspcloud.fr/predicat/label?k=3&q=%27${product_debounce}%27&v=1`
-```
-
-```{ojs}
-import {debounce} from "@mbostock/debouncing-input"
-```
-
+![](chatGPT.png){fig-align="center"}
 
 
 ## Projets actuels
@@ -326,8 +294,8 @@ Des projets en mode 2 jours de travail:
 
 ::: {.column width="60%"}
 
-- Moderniser une appli de _dataviz_ pour le suivi macroéconomique conjoncturel
 - [Guide d'utilisation des données du recensement de la population](https://ssphub.netlify.app/post/parquetrp/)
+- [Moderniser une appli de _dataviz_ pour le suivi macroéconomique conjoncturel](https://radjerad.pages.lab.sspcloud.fr/inflation_internationale/)
 - [Application pour vérifier la qualité des algorithmes d'association entre sources](https://inseefrlab.github.io/serverless-annotation-tool/)
 
 :::
@@ -383,7 +351,7 @@ Des projets en mode 2 jours de travail:
 
 ## Le réseau en pratique
 
-Animation d'un réseau informel de _data scientists_ pour l'administration (+500 inscrits):
+Animation d'un réseau informel de _data scientists_ pour l'administration (+800 inscrits):
 
 - Production de contenu sur <https://ssphub.netlify.app/> (posts de blog, _newsletters_...) ;
 
